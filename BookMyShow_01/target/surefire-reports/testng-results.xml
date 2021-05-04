@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Error message displayed]]>
+    </line>
+    <line>
+      <![CDATA[User has landed on payment page]]>
+    </line>
+  </reporter-output>
+  <suite name="Automation Testing" duration-ms="46354" started-at="2021-05-04T13:19:26 IST" finished-at="2021-05-04T13:20:13 IST">
+    <groups>
+    </groups>
+    <test name="Functional testing1" duration-ms="46354" started-at="2021-05-04T13:19:26 IST" finished-at="2021-05-04T13:20:13 IST">
+      <class name="com.qa.testscript.TC_BookMyShowSportsReg_02">
+        <test-method status="PASS" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscript.TC_BookMyShowSportsReg_02@cd2dae5]" name="setup" is-config="true" duration-ms="8182" started-at="2021-05-04T13:19:26 IST" finished-at="2021-05-04T13:19:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://in.bookmyshow.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BookMyShowSportsRegNegative()[pri:0, instance:com.qa.testscript.TC_BookMyShowSportsReg_02@cd2dae5]" name="BookMyShowSportsRegNegative" duration-ms="33420" started-at="2021-05-04T13:19:35 IST" finished-at="2021-05-04T13:20:08 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Error message displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BookMyShowSportsRegNegative -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testscript.TC_BookMyShowSportsReg_02@cd2dae5]" name="tearDown" is-config="true" duration-ms="755" started-at="2021-05-04T13:20:08 IST" finished-at="2021-05-04T13:20:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscript.TC_BookMyShowSportsReg_02 -->
+      <class name="com.qa.testscript.TC_BookMyShowSportsReg_01">
+        <test-method status="PASS" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscript.TC_BookMyShowSportsReg_01@6ebc05a6]" name="setup" is-config="true" duration-ms="8287" started-at="2021-05-04T13:19:26 IST" finished-at="2021-05-04T13:19:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://in.bookmyshow.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BookMyShowSportsRegPostive()[pri:1, instance:com.qa.testscript.TC_BookMyShowSportsReg_01@6ebc05a6]" name="BookMyShowSportsRegPostive" duration-ms="37153" started-at="2021-05-04T13:19:35 IST" finished-at="2021-05-04T13:20:12 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[User has landed on payment page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BookMyShowSportsRegPostive -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testscript.TC_BookMyShowSportsReg_01@6ebc05a6]" name="tearDown" is-config="true" duration-ms="847" started-at="2021-05-04T13:20:12 IST" finished-at="2021-05-04T13:20:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscript.TC_BookMyShowSportsReg_01 -->
+    </test> <!-- Functional testing1 -->
+  </suite> <!-- Automation Testing -->
+</testng-results>

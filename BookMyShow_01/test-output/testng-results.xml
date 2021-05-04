@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Error message displayed]]>
+    </line>
+    <line>
+      <![CDATA[User has landed on payment page]]>
+    </line>
+  </reporter-output>
+  <suite name="Automation Testing" duration-ms="81860" started-at="2021-05-04T07:40:17Z" finished-at="2021-05-04T07:41:39Z">
+    <groups>
+    </groups>
+    <test name="Functional testing1" duration-ms="81860" started-at="2021-05-04T07:40:17Z" finished-at="2021-05-04T07:41:39Z">
+      <class name="com.qa.testscript.TC_BookMyShowSportsReg_02">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testscript.TC_BookMyShowSportsReg_02@4cf777e8]" name="setup" is-config="true" duration-ms="6009" started-at="2021-05-04T07:40:17Z" finished-at="2021-05-04T07:40:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://in.bookmyshow.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BookMyShowSportsRegNegative()[pri:0, instance:com.qa.testscript.TC_BookMyShowSportsReg_02@4cf777e8]" name="BookMyShowSportsRegNegative" duration-ms="33954" started-at="2021-05-04T07:40:23Z" finished-at="2021-05-04T07:40:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Error message displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BookMyShowSportsRegNegative -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testscript.TC_BookMyShowSportsReg_02@4cf777e8]" name="tearDown" is-config="true" duration-ms="790" started-at="2021-05-04T07:40:57Z" finished-at="2021-05-04T07:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscript.TC_BookMyShowSportsReg_02 -->
+      <class name="com.qa.testscript.TC_BookMyShowSportsReg_01">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testscript.TC_BookMyShowSportsReg_01@59ec2012]" name="setup" is-config="true" duration-ms="5140" started-at="2021-05-04T07:40:58Z" finished-at="2021-05-04T07:41:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://in.bookmyshow.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BookMyShowSportsRegPostive()[pri:1, instance:com.qa.testscript.TC_BookMyShowSportsReg_01@59ec2012]" name="BookMyShowSportsRegPostive" duration-ms="34992" started-at="2021-05-04T07:41:03Z" finished-at="2021-05-04T07:41:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[User has landed on payment page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BookMyShowSportsRegPostive -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testscript.TC_BookMyShowSportsReg_01@59ec2012]" name="tearDown" is-config="true" duration-ms="770" started-at="2021-05-04T07:41:38Z" finished-at="2021-05-04T07:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscript.TC_BookMyShowSportsReg_01 -->
+    </test> <!-- Functional testing1 -->
+  </suite> <!-- Automation Testing -->
+</testng-results>
